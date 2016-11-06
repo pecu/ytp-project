@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  root 'tasks#index'
+  root 'task_lists#index'
   resources :tasks
   resources :task_lists
   # The priority is based upon order of creation: first created -> highest priority.

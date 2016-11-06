@@ -23,7 +23,10 @@ default: &default
 
 development:
   <<: *default
-  database: example_development
+  database: ytpdb
+  username: ytp_user
+  password: ytp_password
+  host: ytpdb.czkomzwa8p5l.ap-northeast-1.rds.amazonaws.com
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
@@ -80,6 +83,7 @@ test:
 #
 production:
   <<: *default
-  database: example_production
-  username: example
-  password: <%= ENV['EXAMPLE_DATABASE_PASSWORD'] %>
+  database: ytpdb
+  username: ytp_user
+  password: ytp_password
+  host: ytpdb.czkomzwa8p5l.ap-northeast-1.rds.amazonaws.com
