@@ -83,7 +83,7 @@ test:
 #
 production:
   <<: *default
-  database: ytpdb
-  username: ytp_user
-  password: ytp_password
-  host: ytpdb.czkomzwa8p5l.ap-northeast-1.rds.amazonaws.com
+  database: testDB
+  username: pecu
+  password: kooppecu0604
+  host: pecudb.ci9dfnezja6z.ap-southeast-1.rds.amazonaws.com
