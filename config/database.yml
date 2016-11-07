@@ -85,5 +85,5 @@ production:
   <<: *default
   database: testDB
   username: pecu
-  password: kooppecu0604
+  password: 
   host: pecudb.ci9dfnezja6z.ap-southeast-1.rds.amazonaws.com
